@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fukugouchan", "fukugouchan\fukugouchan.csproj", "{974FE53D-555E-49F4-9807-D3E0B3E97BD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{1CDE8044-7683-4554-ADF0-E46E5CE80DC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{974FE53D-555E-49F4-9807-D3E0B3E97BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{974FE53D-555E-49F4-9807-D3E0B3E97BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{974FE53D-555E-49F4-9807-D3E0B3E97BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{974FE53D-555E-49F4-9807-D3E0B3E97BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CDE8044-7683-4554-ADF0-E46E5CE80DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CDE8044-7683-4554-ADF0-E46E5CE80DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CDE8044-7683-4554-ADF0-E46E5CE80DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CDE8044-7683-4554-ADF0-E46E5CE80DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6473D5F8-842C-4012-B159-E93682DE36A7}
+	EndGlobalSection
+EndGlobal

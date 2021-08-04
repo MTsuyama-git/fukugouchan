@@ -1,0 +1,44 @@
+﻿<Window x:Class="fukugouchan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:fukugouchan"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="110" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical" VerticalAlignment="Top">
+            <Grid Margin="10, 0, 10,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.03*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="0.03*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0">File:</TextBlock>
+                <TextBlock Name="Eintity" Grid.Column="1"></TextBlock>
+                <Button Grid.Column="2"  Click="OpenFileDialog">...</Button>
+            </Grid>
+            <Grid Margin="10, 0, 10,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.1*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="0.032*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0">IdentifyFile:</TextBlock>
+                <TextBlock Name="KeyFile" Grid.Column="1"></TextBlock>
+                <Button Grid.Column="2" Click="OpenIdentityDialog">...</Button>
+            </Grid>
+            <Grid Margin="10, 0, 10,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.1*"></ColumnDefinition>
+                    <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                    <ColumnDefinition Width="0.11*"></ColumnDefinition>
+                    <ColumnDefinition Width="0.1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <ProgressBar Name="Progress0" Grid.Column="0"></ProgressBar>
+                <Button Grid.Column="2" Margin="0,0,10,0" Click="ProceedDecrypt">Decrypt</Button>
+                <Button Grid.Column="3" Click="ProceedClear">Clear</Button>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>
