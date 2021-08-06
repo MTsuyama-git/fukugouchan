@@ -13,7 +13,7 @@ namespace Utility {
         public readonly int cipherMode;
 
 	private const int NOCIPHER_NUM = 0;
-	private const int CHACHA_NUM = 0;
+	private const int CHACHA_NUM = 6;
 	private const int CTR_NUM = 7;
 
 	public int SecLen {
