@@ -345,7 +345,7 @@ namespace Utility
             brsa_p -= 1;
             brsa_q -= 1;
 
-            BigInteger brsa_dmp1 = brsa_d & brsa_p;
+            BigInteger brsa_dmp1 = brsa_d % brsa_p;
             BigInteger brsa_dmq1 = brsa_d % brsa_q;
 
             var dmp1b = brsa_dmp1.ToByteArray();
